@@ -1,10 +1,12 @@
-# cometblue
+# cometbluemm
 ## What is it?
 "Comet Blue" is "The intelligent Bluetooth enabled energy-saving radiator thermostat", as stated in official documentation. Link to manufacturer's web page: http://www.eurotronic.org/produkte/comet-blue.html.
 
 From the software point of view, "Comet Blue" is an BLE (Bluetooth Low Energy) device that implements GATT (Generic Attribute Profile Specification).
 
 This project provides python library and command line tool which may be used to control "Comet Blue" from any linux system equipped with Bluetooth adapter (USB Bluetooth 4.0 dongle, for example).
+
+cometbluemm is fork of https://github.com/im-0/cometblue rewrited with library https://github.com/getsenic/gatt-python.
 
 ## Installation
 From sources:
